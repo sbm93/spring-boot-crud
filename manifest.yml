@@ -1,0 +1,11 @@
+applications:
+- path: target/ROOT.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: SpringBootCRUDApplicationExample
+  host: SpringBootCRUDApplicationExample
+  memory: 1024M
+  disk_quota: 2048M
+  buildpack: java_buildpack
+  health-check-type: process
